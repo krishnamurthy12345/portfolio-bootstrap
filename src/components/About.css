@@ -1,0 +1,47 @@
+/* About Section */
+
+#about {
+    background-color: rgb(226, 98, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_bg {
+    width: 700px;
+    height: 300px;
+}
+
+.about_bg h2 {
+    color: darkred;
+}
+
+.about_bg p {
+    color: rgb(34, 36, 35);
+}
+
+.about_bg:hover {
+    width: 800px;
+    height: 400px;
+    transform: scaleX(1);
+    transition: 1s;
+    box-shadow: 0px 0px 22px 18px rgb(75, 204, 233);
+}
+
+.about_bg:hover .about_content {
+    position: absolute;
+    top: 12%;
+    width: 70%;
+    left: 10%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    #about {
+        background-color: rgb(176, 103, 26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

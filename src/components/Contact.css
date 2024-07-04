@@ -1,0 +1,139 @@
+/* #contact {
+    background-color: #ababab;
+    height: 150vh;
+}
+.container {
+    padding-top: 120px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #d7143b;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #1db120;
+    display: inline-block;
+    transform: 0.5s;
+}
+
+.social-icons a:hover {
+    color: #8418e2;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #dba12d;
+}
+
+form input,
+form textarea {
+    width: 99.5%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+} */
+
+
+#contact {
+    background-color: #ababab;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container.contact_container{
+    margin-top: 70px;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact_option{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.contact_option:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+
+}
+.contact_option-icon{
+   font-size: 1.5rem;
+   margin-bottom: 0.5rem; 
+}
+.contact_option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+/* .form1:hover{
+    background:rgb(82, 131, 101)
+    border-color:black;
+} */
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: rgb(161, 194, 225);
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color:bla;
+
+}
+@media screen and (max-width:1024px) {
+    .container.contact_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .container.contact_container{
+        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
+    }
+    
+}

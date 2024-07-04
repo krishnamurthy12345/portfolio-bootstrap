@@ -1,0 +1,76 @@
+#certificates {
+    background-color: rgb(176, 220, 79);
+    width: 99.5%;
+    /* margin-top: 120px; */
+}
+#certificates h1{
+    padding-top: 50px;
+}
+
+.certificate1{
+    margin-left: 30px;
+    background-color: #8418e2;
+}
+.certificate1:hover{
+    transform:translateY(100px) scale(1.2);
+    transition: 0.5s;
+    background-color: aqua;
+    z-index: 1;
+}
+.certificate2{
+    margin-left: 60px;
+    background-color: #8418e2;
+}
+.certificate2:hover{
+    transform: translateY(100px) scale(1.2);
+    /* transform: rotate(360deg); */
+    transition: 0.5s;
+    background-color: aqua;
+    z-index: 1;
+}
+.certificate3{
+    margin-left: 70px;
+    background-color: #8418e2;
+}
+.certificate3:hover{
+    transform: translateY(100px) scale(1.2);
+    /* transform: rotate(360deg); */
+    transition: 0.5s;
+    background-color: aqua;
+    z-index: 1;
+}
+.certificate4{
+    margin-left: 30px;
+    background-color: #8418e2;
+}
+.certificate4:hover{
+    transform:translateY(-120px) scale(1.2);
+    transition: 0.5s;
+    background-color: aqua;
+    z-index: 1;
+}
+.certificate5{
+    margin-left: 70px;
+    background-color: #8418e2;
+}
+.certificate5:hover{
+    transform:translateY(-120px) scale(1.2);
+    transition: 0.5s;
+    background-color: aqua;
+    z-index: 1;
+}
+.certificate6{
+    margin-left: 90px;
+    background-color: #8418e2;
+}
+.certificate6:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-color: aqua;
+    z-index: 1;
+}
+.row {
+    width: 99%;
+    margin-top: 50px;
+    
+}

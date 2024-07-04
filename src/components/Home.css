@@ -1,0 +1,52 @@
+/* Home Section */
+
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./assets/kk.png');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./assets/kk.png'); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: yellow;
+  flex-direction: column;
+}
+#home p {
+  position: absolute;
+  top: 50%;
+  font-size: 80px;
+  opacity: 0;
+  animation: text 3s ease-in;
+}
+#home span {
+  color: rgb(238, 33, 238);
+}
+#home p:nth-child(1) {
+  animation-delay: 0s;
+}
+#home p:nth-child(2) {
+  animation-delay: 3s;
+}
+#home p:nth-child(3) {
+  animation-delay: 6s;
+}
+#home p:nth-child(4) {
+  animation-delay: 9s;
+}
+@keyframes text {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #home p {
+    font-size: 30px;
+  }
+}
